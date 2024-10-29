@@ -30,7 +30,7 @@ function myFunction() {
     }
 }
 
-function redirecionarWhatsApp(numero = '54999877715', mensagem = 'Doces ou travessuras!') {
+function redirecionarWhatsApp(numero = '54991760524', mensagem = 'Doces ou travessuras!') {
     const linkWhatsApp = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
     window.open(linkWhatsApp, "_blank");
 }
