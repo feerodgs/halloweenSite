@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(136deg, hsl(253, 50%, 45%) 0%, hsl(272, 28%, 35%) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+.thank-you-container {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 0 4em;
+}
+
+.thank-you-box {
+    background: linear-gradient(136deg, hsl(253, 50%, 45%) 0%, hsl(272, 28%, 35%) 100%);
+    color: #fff;
+    padding: 1em 0.5em;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.return-black {
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;
+    float: left;
+    color: rgb(132, 16, 220);
+}

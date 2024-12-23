@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SysHalloween</title>
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="assets/img/logo.png" alt="SysHalloween Logo" class="nav__logo-img">
+                SysHalloween
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Sobre</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+                <img src="assets/img/nav-img.png" alt="Menu Image" class="nav__img">
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home container" id="home">
+            <div class="swiper home-swiper">
+                <div class="swiper-wrapper">
+                    <section class="swiper-slide">
+                        <div class="home__content grid">
+                            <div class="home__group">
+                                <img src="assets/img/home1-img.png" alt="Halloween Character 1" class="home__img">
+                            </div>
+                            <div class="home__data">
+                                <h1 class="home__title">Doces ou <br> Travessuras!!</h1>
+                                <p class="home__description">
+                                    🎃👻 Prepare-se para a semana mais assustadora do ano na System! Venha fantasiado, participe das atividades especiais e aproveite para ganhar prêmios!
+                                </p>
+                                <div class="home__buttons">
+                                    <a href="#" class="button" onclick="redirecionarWhatsApp()">Bora jogar!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="swiper-slide">
+                        <div class="home__content grid">
+                            <div class="home__group">
+                                <img src="assets/img/home2-img.png" alt="Halloween Character 2" class="home__img">
+                            </div>
+                            <div class="home__data">
+                                <h1 class="home__title">Está chegando 🎃 SysHalloween</h1>
+                                <p class="home__description">
+                                    Prepare sua fantasia, entre no clima e participe das brincadeiras que vão agitar a semana! Vem se divertir e ganhar prêmios!
+                                </p>
+                                <div class="home__buttons">
+                                    <a href="#" class="button" onclick="redirecionarWhatsApp()">Eu topo o desafio!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="swiper-slide">
+                        <div class="home__content grid">
+                            <div class="home__group">
+                                <img src="assets/img/home3-img.png" alt="Halloween Character 3" class="home__img">
+                            </div>
+                            <div class="home__data">
+                                <h1 class="home__title">Que comece o terror… <br>e a diversão!</h1>
+                                <p class="home__description">
+                                    A Semana de Halloween na System está cheia de TRAVESSURAS esperando por você! Venha fantasiado, participe dos desafios e descubra quem será o mestre das travessuras. 🎃👻
+                                </p>
+                                <div class="home__buttons">
+                                    <a href="#" class="button" onclick="redirecionarWhatsApp()">Tô dentro!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="section about" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">Sobre a noite de Halloween</h2>
+                    <p class="about__description">
+                        🕸️🎃 A Noite de Todos os Santos, ou de Todos os Mortos, é celebrada no dia 31 de outubro e é uma festa internacional super divertida! 
+                        <span id="dots">...</span><span id="more">Ela inclui atividades como "doces ou travessuras", festas à fantasia, esculpir abóboras e muito mais!</span>
+                    </p>
+                    <button onclick="myFunction()" id="myBtn">Ler mais</button>
+                </div>
+                <img src="assets/img/category2-img.png" alt="Abóbora" class="about__img">
+            </div>
+        </section>      
+    </main>
+
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <img src="assets/img/logo.png" alt="Footer Logo" class="footer__logo-img">
+                    Halloween
+                </a>
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/systemsistemas" target="_blank" class="footer__social-link"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/system.sistemas" target="_blank" class="footer__social-link"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="https://www.linkedin.com/company/systemsistemas/" target="_blank" class="footer__social-link"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Empresa</h3>
+                <ul class="footer__links">
+                    <li><a href="https://www.systempro.com.br/" class="footer__link">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+        <span class="footer__copy">&#169; SysHalloween. Todos os direitos reservados</span>
+        <img src="assets/img/footer1-img.png" alt="Footer Image 1" class="footer__img-one">
+        <img src="assets/img/footer2-img.png" alt="Footer Image 2" class="footer__img-two">
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
